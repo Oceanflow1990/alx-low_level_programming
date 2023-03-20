@@ -4,7 +4,6 @@
  * main - print the alphabet.
  *Return: Always 0 (pass)
  */
-
 int main(void)
 {
 	char i;
