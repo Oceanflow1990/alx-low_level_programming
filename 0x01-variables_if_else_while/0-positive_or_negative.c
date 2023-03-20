@@ -6,7 +6,6 @@
  * main - Determines if a number is postive, negative or zero.
  * return: always  0 (pass)
  */
-
 int main(void)
 {
 	int n;
