@@ -1,12 +1,9 @@
 #include <stdlib.h>
-
 #include <time.h>
-
 #include <stdio.h>
 
 /**
- * betty style doc
- * main - main function
+ * main - Determines if a number is postive, negative or zero.
  * return: always  0 (pass)
  */
 
