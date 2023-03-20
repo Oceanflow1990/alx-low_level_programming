@@ -1,9 +1,11 @@
 #include <stdlib.h>
 #include <time.h>
+/*more header goes there */
 #include <stdio.h>
+/* betty style doc for function main goes there */
 /**
- * main - program will assign a random number to the variable 
- * Return: 0
+ * main - main function
+ * Return: alwsy 0 (pass)
  */
 int main(void)
 {
@@ -15,11 +17,10 @@ int main(void)
 	/* your code goes there */
 	m = n % 10;
 	if (m > 5)
-		printf("last digit of %d is %d and is greater than 5", n, m);
+		printf("Last digit of %d is %d and is greater than 5\n", n, m);
 	else if (m == 0)
-		printf("last digit of %d is %d and zero", n, m);
+		printf("Last digit of %d is %d and is zero\n", n, m);
 	else if (m < 6 && m != 0)
-		printf("last digit of %d is %d and is less than 6 and not 0", n, m);
-	printf("\n");
+		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, m);
 	return (0);
 }
