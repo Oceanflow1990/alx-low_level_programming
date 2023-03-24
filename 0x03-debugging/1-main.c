@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - causes an infinite loop
+ * main - causes an finite loop
  * Return: 0
  */
 
@@ -15,10 +15,10 @@ int main(void)
 
 	/*while (i < 10)*/
 	/*{*/
-	/*	putchar(i);*/
+	/*	putchar(i)*/
 	/*}*/
 
-	printf("infinite loop avoid! \\o/\n");
+	printf("infinite loop avoided! \\o/\n");
 
 	return (0);
 }
