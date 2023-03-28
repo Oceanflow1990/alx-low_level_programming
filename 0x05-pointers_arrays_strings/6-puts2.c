@@ -2,29 +2,18 @@
 
 /**
  * puts2 - print strings
- * @str: function parameter
+ * @str:function parameter
  * Return: 0
  */
 
 void puts2(char *str)
 {
-	int long1 = 0;
-	int t = 0;
-	char *y = str;
-	int o;
+	int i;
 
-	while (*y != '\0')
+	for (i = 0 ; str[i] != '\0' ; i++)
 	{
-		y++;
-		longi++;
-	}
-	t = longi - 1;
-	for (o = 0 ; o <= t ; o++)
-	{
-		if (o % 2 == 0)
-		{
-			_putchar(str[o]);
-		}
+		_putchar(str[i]);
+		i++;
 	}
 	_putchar('\n');
 }
