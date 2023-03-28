@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * puts2 - Function to print one character out of two
- * @str: input
- * Return: print
+ * puts2 - function to print strings
+ * @str:parameter fo the function
+ * Return: 0
  */
 
 void puts2(char *str)
@@ -13,7 +13,6 @@ void puts2(char *str)
 	for (i = 0 ; str[i] != '\0' ; i++)
 	{
 		_putchar(str[i]);
-		i++;
 	}
 	_putchar('\n');
 }
