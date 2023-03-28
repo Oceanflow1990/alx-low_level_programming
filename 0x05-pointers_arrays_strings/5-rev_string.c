@@ -1,4 +1,3 @@
-:wq
 #include "main.h"
 
 /**
