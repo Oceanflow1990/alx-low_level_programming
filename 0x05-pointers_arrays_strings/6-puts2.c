@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * puts2 - print strings
  * @str:function parameter
