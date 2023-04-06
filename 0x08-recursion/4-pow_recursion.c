@@ -2,20 +2,18 @@
 #include <stdio.h>
 
 /**
- * _sqrt - function that returns the value of x raised to the power of y.
- * @n: number to cal. then sqrt
- * @i: iterate number
+ * _pow_recursion - Returns the value of x raised to the power of y
+ * @x: number to cal. then sqrt
+ * @y: power of the sqrt
  * Return: the natural sqrt
  */
 
-int _sqrt(int n, int i)
+int _pow_recursion(int x, int y)
 {
-	int sqrt = i * i;
-
-	if (sqrt > n)
+	if (y < 0)
 		return (-1);
-	if (sqrt == n)
-		return (i);
+	if (y == 0)
+		return (1);
 
-	return (_sqrt(n, i + 1));
+	return (x * _pow_recursion(x, y - 1));
 }
