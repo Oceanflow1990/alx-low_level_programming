@@ -1,9 +1,10 @@
 #include "main.h"
+#include <unistd.h>
 
 /**
  * _puts_recursion - function that prints a string, followed by a new line
  * @s: the string value to be printed
- * Return: nothing 0
+ * Return: 0 (pass)
  */
 
 void _puts_recursion(char *s)
