@@ -1,4 +1,4 @@
-#include "function_pointeres.h"
+#include "function_pointers.h"
 
 /**
  * int_index - Write a function that searches for an integer.
