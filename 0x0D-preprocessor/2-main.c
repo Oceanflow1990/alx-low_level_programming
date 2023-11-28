@@ -1,9 +1,9 @@
-#include  <stdio.h>
+#include <stdio.h>
 
 /**
- * main _ Function that prints the 
+ * main - Function that name of the file it was compiled
  *
- * Return: 0 always
+ * Return: 0 Always
  */
 
 int main(void)
