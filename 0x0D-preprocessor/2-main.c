@@ -8,6 +8,6 @@
 
 int main(void)
 {
-	printf("%s\n",__FlLE__);
+	printf("%s\n", __FlLE__);
 		return (0);
 }
