@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void myStartUpFu(void) __attribute__ ((constructor));
+void myStartUpFu(void)__attribute__ ((constructor));
 
 /**
  * myStartUpFun - print a senstence before the mai func.
