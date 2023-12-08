@@ -1,14 +1,11 @@
 #include <stdio.h>
-
-void myStartUpFu(void)__attribute__ ((constructor));
+void first(void)__attribute__ ((constructor));
 
 /**
- * myStartUpFun - print a senstence before the mai func.
- *
+ * first - Function that runs before he main function
  */
-
-void myStartUpFun(void)
+void first(void)
 {
-	printf("You're beat! nad yet, and yet, you must allow,\n");
-	printf("I bore my house upon my back!\n");
+	printf("You're beat! and yet, you must allow,\n");
+	printf("I bore my house upon my bakc!\n");
 }
