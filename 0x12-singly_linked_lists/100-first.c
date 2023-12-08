@@ -3,12 +3,13 @@
 void first(void) __attribute__ ((constructor));
 
 /**
- * first - prints a sentence before the main
- * function is exceuted
+ * first - print a senstence before the mai func.
  *
  */
+
 void first(void)
 {
-printf("you're beat! and yet, you must allow,\n");
+printf("You're beat! nad yet, and yet, you must allow,\n");
 printf("I bore my house upon my back!\n");
 }
+
